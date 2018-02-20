@@ -3,6 +3,12 @@
 [![Build Status](https://travis-ci.org/lestrrat/go-strcursor.svg?branch=master)](https://travis-ci.org/lestrrat/go-strcursor)
 [![GoDoc](https://godoc.org/github.com/lestrrat/go-strcursor?status.svg)](https://godoc.org/github.com/lestrrat/go-strcursor)
 
+# WARNING
+
+This repository has been moved to [github.com/lestrrat-go/strcursor](https://github.com/lestrrat-go/strcursor). This repository exists so that libraries pointing to this URL will keep functioning, but this repository will NOT be updated in the future. Please use the new import path.
+
+# DESCRIPTION
+
 Some types of structured text requires you to start parsing using byte semantics,
 only to require character semantics after discovering the text's characteristics
 such as its encoding.
